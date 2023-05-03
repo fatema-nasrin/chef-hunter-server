@@ -1,0 +1,50 @@
+[
+      {
+        "id":"1",
+        "name": "Takumi Nakamura",
+        "picture": "https://img.jakpost.net/c/2020/04/08/2020_04_08_92239_1586333880._large.jpg",
+        "experience": 15,
+        "recipes": 80,
+        "likes": 2000
+      },
+      {
+        "id":"2",
+        "name": "Yoko Ishida",
+        "picture": "https://www.gannett-cdn.com/authoring/2009/08/08/NOKL/ghnewsok-OK-3391469-e55c0870.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp",
+        "experience": 20,
+        "recipes": 100,
+        "likes": 3000
+      },
+      {
+        "id":"3",
+        "name": "Hiroshi Kimura",
+        "picture": "https://img.freepik.com/free-photo/cook-putting-vegetable-plate-with-salad_23-2148040235.jpg?w=2000",
+        "experience": 25,
+        "recipes": 120,
+        "likes": 4000
+      },
+      {
+        "id":"4",
+        "name": "Akira Hayashi",
+        "picture": "https://cdn-japantimes.com/wp-content/uploads/2016/09/p10-joe-kawasaki-a-20160903.jpg",
+        "experience": 18,
+        "recipes": 90,
+        "likes": 2500
+      },
+      {
+        "id":"5",
+        "name": "Kumi Aoki",
+        "picture": "https://media.istockphoto.com/id/1154801795/photo/chinese-chef.jpg?s=612x612&w=0&k=20&c=WaTumclkoLjmhPbNJWl0fE8ZCJJVY17eoBIwotg3te8=",
+        "experience": 12,
+        "recipes": 70,
+        "likes": 1500
+      },
+      {
+        "id":"6",
+        "name": "Ryota Saito",
+        "picture": "https://media.istockphoto.com/id/544808162/photo/portrait-of-a-baker.jpg?s=612x612&w=0&k=20&c=EpgKht1AFxqxdFlfjUFJjWRH6_vOTj5BmkFLspIOgao=",
+        "experience": 30,
+        "recipes": 150,
+        "likes": 5000
+      }
+]
