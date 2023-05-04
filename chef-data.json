@@ -10,7 +10,7 @@
       {
         "id":"2",
         "name": "Yoko Ishida",
-        "picture": "https://www.gannett-cdn.com/authoring/2009/08/08/NOKL/ghnewsok-OK-3391469-e55c0870.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp",
+        "picture": "https://media.istockphoto.com/id/598254944/photo/chef-holding-prepared-meal.jpg?s=612x612&w=0&k=20&c=cREKGI73W29l6NgYmskWmvozqnP-A9IO-YuGktArsiA=",
         "experience": 20,
         "recipes": 100,
         "likes": 3000
@@ -26,7 +26,7 @@
       {
         "id":"4",
         "name": "Akira Hayashi",
-        "picture": "https://cdn-japantimes.com/wp-content/uploads/2016/09/p10-joe-kawasaki-a-20160903.jpg",
+        "picture": "https://media.istockphoto.com/id/1193329449/photo/chef-preparing-cuisine-in-kitchen-portrait.jpg?s=612x612&w=0&k=20&c=PWpu88RDJGkxYKw0T_MlpOAAIHQyYGkaadcbHaENjII=",
         "experience": 18,
         "recipes": 90,
         "likes": 2500
@@ -46,5 +46,21 @@
         "experience": 30,
         "recipes": 150,
         "likes": 5000
+      },
+      {
+        "id":"7",
+        "name": "Nobu Matsuhisa",
+        "picture": "https://media.istockphoto.com/id/1281371163/photo/portrait-of-japanese-chef-in-kitchen.jpg?s=612x612&w=0&k=20&c=TAZdsI_XsRFrfz8H8XvC3F9VDNYJtrAAH0qb03zcMSg=",
+        "experience": 40,
+        "recipes": 30,
+        "likes": 3000
+      },
+      {
+        "id":"8",
+        "name": "Jiro Ono ",
+        "picture": "https://media.istockphoto.com/id/1059074556/photo/chef-preparing-food-in-the-kitchen-of-a-restaurant.jpg?s=612x612&w=0&k=20&c=qB3d1A7VYo2rcHxh8pV7jX0ok4kh6MJfVWsQRcBdzgM=",
+        "experience": 50,
+        "recipes": 200,
+        "likes": 4000
       }
 ]
