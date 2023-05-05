@@ -3,64 +3,473 @@
         "id":"1",
         "name": "Takumi Nakamura",
         "picture": "https://img.jakpost.net/c/2020/04/08/2020_04_08_92239_1586333880._large.jpg",
-        "experience": 15,
+        "bio":"Chef Takumi Nakamura is a classically trained chef with over 20 years of experience in French cuisine. Her passion for cooking began at a young age, and she has since traveled the world to learn and perfect her craft.",
+        "experience": 20,
         "recipes": 80,
-        "likes": 2000
+        "likes": 2000,
+        "chefRecipe":[
+          {
+            "name": "Miso Soup",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2018/01/Miso-Soup-Thumb.jpg",
+            "ingredients": [
+              "4 cups dashi soup stock",
+              "1/4 cup miso paste",
+              "1/4 cup cubed tofu",
+              "2 green onions, thinly sliced",
+              "1/2 sheet nori seaweed, cut into small pieces"
+            ],
+            "cookingMethod": "1. In a saucepan, bring the dashi soup stock to a boil.\n2. Add the cubed tofu to the soup.\n3. Lower the heat to medium and simmer for a few minutes.\n4. In a small bowl, dissolve the miso paste in a few tablespoons of the soup broth.\n5. Turn off the heat and add the miso mixture to the soup.\n6. Add the green onions and nori, and stir gently to combine.",
+            "rating": 4.5
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2019/03/Teriyaki-Chicken-Thumb.jpg",
+            "ingredients": [
+              "4 boneless skin-on chicken thighs",
+              "1 Tbsp. oil",
+              "1 Tbsp. sake",
+              "1 Tbsp. mirin",
+              "2 Tbsp. soy sauce",
+              "1 Tbsp. sugar"
+            ],
+            "cookingMethod": "1. Heat the oil in a frying pan over medium heat.\n2. Add the chicken, skin side down, and cook until the skin is golden brown and crisp.\n3. Turn the chicken over and add the sake, mirin, soy sauce, and sugar.\n4. Bring to a boil, then reduce the heat and simmer until the chicken is cooked through and the sauce is thickened and shiny.",
+            "rating": 4.2
+          },
+          {
+            "name": "Tempura Shrimp",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2017/12/Shrimp-Tempura-Thumb.jpg",
+            "ingredients": [
+              "12 large shrimp, deveined and peeled",
+              "1 cup all-purpose flour",
+              "1 cup ice-cold water",
+              "1 egg yolk",
+              "Oil for frying",
+              "Salt"
+            ],
+            "cookingMethod": "1. In a bowl, whisk together the flour, egg yolk, and ice-cold water.\n2. Heat the oil in a deep frying pan over medium-high heat.\n3. Lightly salt the shrimp, then dip them in the batter to coat.\n4. Fry the shrimp in the hot oil until golden brown and crispy.\n5. Drain on paper towels and serve immediately.",
+            "rating": 4.8
+          }
+          
+
+        ]
+        
       },
       {
         "id":"2",
         "name": "Yoko Ishida",
         "picture": "https://media.istockphoto.com/id/598254944/photo/chef-holding-prepared-meal.jpg?s=612x612&w=0&k=20&c=cREKGI73W29l6NgYmskWmvozqnP-A9IO-YuGktArsiA=",
-        "experience": 20,
+        "bio":"Chef Yoko Ishida grew up in a small town in Italy and learned to cook from his grandmother. He specializes in traditional Japanese dishes, using only the freshest ingredients and time-tested techniques.",
+        "experience": 30,
         "recipes": 100,
-        "likes": 3000
+        "likes": 3000,
+        "chefRecipe":[
+          {
+            "recipeName": "Okonomiyaki",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2019/02/Okonomiyaki-II-600x400.jpg",
+            "ingredients": [
+              "1/2 head cabbage",
+              "2 green onions",
+              "1/2 cup all-purpose flour",
+              "1/2 cup water",
+              "2 large eggs",
+              "2 tbsp vegetable oil",
+              "1/4 cup bonito flakes",
+              "1/4 cup mayonnaise",
+              "1 tbsp Worcestershire sauce",
+              "1 tbsp soy sauce"
+            ],
+            "cookingMethod": [
+              "Shred cabbage and chop green onions.",
+              "In a large mixing bowl, combine flour, water, and eggs.",
+              "Mix in cabbage and green onions.",
+              "Heat vegetable oil in a pan and add batter.",
+              "Cook on both sides until golden brown.",
+              "Garnish with bonito flakes, mayonnaise, Worcestershire sauce, and soy sauce."
+            ],
+            "rating": 4.7
+          },
+          {
+            "recipeName": "Gyudon",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2018/09/Gyudon-II-600x400.jpg",
+            "ingredients": [
+              "1/2 lb thinly sliced beef",
+              "1 onion",
+              "3 tbsp soy sauce",
+              "2 tbsp mirin",
+              "2 tbsp sake",
+              "1 tbsp sugar",
+              "1 tbsp vegetable oil",
+              "1/2 cup water",
+              "3 eggs",
+              "3 cups cooked rice"
+            ],
+            "cookingMethod": [
+              "Slice onion thinly.",
+              "In a small bowl, mix soy sauce, mirin, sake, and sugar.",
+              "Heat oil in a pan and add beef and onions.",
+              "Once beef is browned, add sauce mixture and water.",
+              "Simmer for a few minutes.",
+              "Beat eggs and pour over beef and onions.",
+              "Cover and let cook until eggs are set.",
+              "Serve over rice."
+            ],
+            "rating": 4.9
+          },
+          {
+            "recipeName": "Beef Teriyaki",
+            "recipeImage": "https://www.eatwell101.com/wp-content/uploads/2020/03/Beef-Teriyaki-recipe-2.jpg",
+            "ingredients": [
+              "1 pound beef sirloin, thinly sliced",
+              "1/4 cup soy sauce",
+              "2 tablespoons honey",
+              "2 tablespoons sake",
+              "1 tablespoon vegetable oil",
+              "2 cloves garlic, minced",
+              "1 teaspoon grated ginger",
+              "2 green onions, sliced"
+            ],
+            "cookingMethod": "1. In a small bowl, whisk together soy sauce, honey, and sake. Set aside.\n2. Heat a large skillet over high heat. Add the vegetable oil, then add the beef in a single layer. Cook for 1-2 minutes on each side, until browned.\n3. Add the garlic and ginger to the pan and cook for another minute.\n4. Pour in the soy sauce mixture and stir until the beef is coated.\n5. Cook for 1-2 minutes, until the sauce has thickened and the beef is cooked through.\n6. Garnish with sliced green onions and serve over rice or noodles.",
+            "rating": 4.5
+          }
+        ]
       },
       {
         "id":"3",
         "name": "Hiroshi Kimura",
         "picture": "https://img.freepik.com/free-photo/cook-putting-vegetable-plate-with-salad_23-2148040235.jpg?w=2000",
+        "bio":"Chef Hiroshi Kimura is a rising star in the culinary world, known for his innovative approach to fusion cuisine. His dishes blend flavors and ingredients from around the globe, creating a unique and unforgettable dining experience.",
         "experience": 25,
         "recipes": 120,
-        "likes": 4000
+        "likes": 4000,
+        "chefRecipe":[
+          {
+            "recipeName": "Chicken Katsu",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "4 boneless, skinless chicken breasts",
+              "1/2 cup all-purpose flour",
+              "2 eggs, beaten",
+              "1 cup panko breadcrumbs",
+              "1/2 teaspoon salt",
+              "1/4 teaspoon black pepper",
+              "Vegetable oil, for frying",
+              "Tonkatsu sauce, for serving"
+            ],
+            "cookingMethod": "1. Preheat the oven to 400°F. Line a baking sheet with parchment paper.\n2. Pound the chicken breasts to an even thickness. Season with salt and pepper.\n3. Set up three shallow bowls: one with flour, one with beaten eggs, and one with panko breadcrumbs.\n4. Dredge each chicken breast in the flour, shaking off any excess. Dip in the beaten eggs, then coat in the panko breadcrumbs.\n5. Heat about 1/4 inch of vegetable oil in a large skillet over medium-high heat. Fry the chicken breasts for 3-4 minutes on each side, until golden brown and crispy.\n6. Transfer the chicken to the prepared baking sheet and bake for 8-10 minutes, until cooked through.\n7. Serve with tonkatsu sauce.",
+            "rating":4.8
+        },
+        {
+          "recipe_name": "Fugu Sashimi",
+          "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+          "ingredients": [
+            "Fresh fugu (pufferfish)",
+            "Salt",
+            "Soy sauce",
+            "Ponzu sauce",
+            "Wasabi"
+          ],
+          "cooking_method": [
+            "Clean the fugu and remove the skin, bones, and organs.",
+            "Slice the fugu thinly and arrange on a plate.",
+            "Sprinkle salt over the fugu slices.",
+            "Serve with soy sauce, ponzu sauce, and wasabi."
+          ]
+        },
+        {
+          "recipe_name": "Uni Shooter",
+          "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+          "ingredients": [
+            "Fresh sea urchin",
+            "Sake",
+            "Soy sauce",
+            "Wasabi",
+            "Seaweed (optional)"
+          ],
+          "cooking_method": [
+            "Open the sea urchin and remove the roe.",
+            "In a shot glass, add a small amount of sake and soy sauce.",
+            "Add the sea urchin roe to the shot glass.",
+            "Garnish with wasabi and seaweed (optional).",
+            "Shoot and enjoy!"
+          ]
+        }
+        
+        ]
       },
       {
         "id":"4",
         "name": "Akira Hayashi",
         "picture": "https://media.istockphoto.com/id/1193329449/photo/chef-preparing-cuisine-in-kitchen-portrait.jpg?s=612x612&w=0&k=20&c=PWpu88RDJGkxYKw0T_MlpOAAIHQyYGkaadcbHaENjII=",
+        "bio":"Chef Akira Hayashi is a vegan chef who believes that healthy food can be delicious and satisfying. He specializes in plant-based cuisine that is both nourishing and flavorful, and he is passionate about sharing his knowledge with others.",
         "experience": 18,
         "recipes": 90,
-        "likes": 2500
+        "likes": 2500,
+        "chefRecipe":[
+          {
+            "recipe_name": "Motsunabe (Offal Hotpot)",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "500g of pork or beef offal (motsu), cleaned and cut into bite-sized pieces",
+              "1/2 napa cabbage, chopped",
+              "1 pack of tofu, cut into cubes",
+              "1 pack of shimeji mushrooms",
+              "1 pack of enoki mushrooms",
+              "1 leek, chopped",
+              "2 cloves of garlic, minced",
+              "1/4 cup of miso paste",
+              "1/4 cup of soy sauce",
+              "1/4 cup of sake",
+              "1 tbsp of vegetable oil",
+              "1 liter of water"
+            ],
+            "cooking_method": [
+              "In a large pot or nabe, heat the vegetable oil over medium-high heat.",
+              "Add the garlic and sauté until fragrant.",
+              "Add the offal and sauté until browned.",
+              "Add the chopped leek and sauté until softened.",
+              "Add the chopped napa cabbage and sauté until wilted.",
+              "Add the miso paste, soy sauce, and sake, and stir to combine.",
+              "Add the water and bring to a boil.",
+              "Reduce the heat to low and add the tofu, shimeji mushrooms, and enoki mushrooms.",
+              "Simmer for 10-15 minutes until everything is cooked through.",
+              "Serve the hotpot in bowls with rice on the side.",
+              "Enjoy!"
+            ]
+          },
+          {
+            "recipe_name": "Shirako Tempura",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "200g of shirako (cod sperm)",
+              "1 cup of tempura flour",
+              "1 cup of ice water",
+              "Vegetable oil for frying",
+              "Salt for seasoning",
+              "Lemon wedges for serving"
+            ],
+            "cooking_method": [
+              "Rinse the shirako in cold water and drain well.",
+              "Season the shirako with salt and set aside.",
+              "In a mixing bowl, combine the tempura flour and ice water until just combined. Do not overmix.",
+              "Heat the vegetable oil in a deep frying pan or wok until it reaches 170-180°C.",
+              "Dip the shirako into the tempura batter and carefully place them in the hot oil.",
+              "Fry until golden brown and crispy, about 1-2 minutes.",
+              "Remove the shirako from the oil with a slotted spoon and place on a paper towel to drain excess oil.",
+              "Serve hot with lemon wedges on the side.",
+              "Enjoy!"
+            ]
+          },
+          {
+            "recipe_name": "Mochi",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "2 cups of glutinous rice flour",
+              "1/2 cup of sugar",
+              "1 1/2 cups of water",
+              "1/4 cup of potato starch (or cornstarch)",
+              "Food coloring (optional)",
+              "Fillings (e.g. red bean paste, ice cream, fruit, etc.)"
+            ],
+            "cooking_method": [
+              "In a mixing bowl, combine the glutinous rice flour and sugar.",
+              "Gradually add the water while stirring until a smooth batter forms.",
+              "Add food coloring if desired.",
+              "In a separate bowl, mix the potato starch with a little water to form a slurry.",
+              "Dust a work surface with potato starch to prevent the mochi from sticking.",
+              "Pour the mochi batter onto the work surface and spread it out evenly with a spatula.",
+              "Steam the mochi for 15-20 minutes until cooked through.",
+              "Carefully remove the mochi from the steamer and let it cool slightly.",
+              "Dust your hands with potato starch and knead the mochi until smooth and elastic.",
+              "Roll the mochi out into a thin sheet.",
+              "Cut the mochi into small squares or circles.",
+              "Place a small amount of filling in the center of each mochi piece.",
+              "Gather the edges of the mochi and pinch them together to seal the filling inside.",
+              "Dust the mochi with potato starch to prevent sticking.",
+              "Serve the mochi immediately or store in an airtight container in the refrigerator.",
+              "Enjoy!"
+            ]
+          }  
+        ]
       },
       {
         "id":"5",
         "name": "Kumi Aoki",
         "picture": "https://media.istockphoto.com/id/1154801795/photo/chinese-chef.jpg?s=612x612&w=0&k=20&c=WaTumclkoLjmhPbNJWl0fE8ZCJJVY17eoBIwotg3te8=",
+        "bio":"Chef Kumi Aoki is a grill master who knows his way around a steak. He has worked in some of the best steakhouses in the country, and his secret blend of spices is legendary.",
         "experience": 12,
         "recipes": 70,
-        "likes": 1500
+        "likes": 1500,
+        "chefRecipe":[
+          {
+            "recipe_name": "Okra with Miso Sauce",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "Fresh okra",
+              "Miso paste",
+              "Sugar",
+              "Mirin",
+              "Soy sauce"
+            ],
+            "cooking_method": [
+              "Wash the okra and cut off the stem end.",
+              "Boil the okra for 1-2 minutes until tender.",
+              "Drain the okra and pat dry with a paper towel.",
+              "Mix the miso paste, sugar, mirin, and soy sauce in a small bowl to make the sauce.",
+              "Serve the okra with the miso sauce on top."
+            ]
+          },
+          {
+            "recipe_name": "Natto Rice Bowl",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "1 cup Japanese rice",
+              "1 1/2 cups water",
+              "1 pack of natto",
+              "1/2 onion, chopped",
+              "1 tbsp soy sauce"
+            ],
+            "cooking_method": [
+              "Rinse the rice in cold water and drain.",
+              "Add the rice and water to a rice cooker and cook according to the manufacturer's instructions.",
+              "While the rice is cooking, prepare the natto according to the package instructions.",
+              "In a pan, sauté the chopped onion until translucent.",
+              "Add the cooked rice to the pan and mix well with the onion.",
+              "Add the soy sauce and mix well.",
+              "Serve the rice and onion mixture in a bowl and top with the prepared natto.",
+              "Enjoy!"
+            ]
+          },
+          {
+            "recipe_name": "Basashi (Horse Sashimi)",
+            "recipeImage": "https://www.japanesecooking101.com/wp-content/uploads/2012/05/chicken-katsu-recipe.jpg",
+            "ingredients": [
+              "300g of horse meat",
+              "1/4 cup of soy sauce",
+              "1/4 cup of mirin",
+              "1/4 cup of sake",
+              "1 tsp of grated ginger",
+              "1 tsp of grated garlic"
+            ],
+            "cooking_method": [
+              "Chill the horse meat in the refrigerator for at least 2 hours.",
+              "Slice the horse meat thinly and arrange on a plate.",
+              "In a small bowl, mix together the soy sauce, mirin, sake, grated ginger, and grated garlic to make a dipping sauce.",
+              "Serve the horse meat with the dipping sauce on the side."
+            ]
+          }
+        ]
       },
       {
         "id":"6",
         "name": "Ryota Saito",
         "picture": "https://media.istockphoto.com/id/544808162/photo/portrait-of-a-baker.jpg?s=612x612&w=0&k=20&c=EpgKht1AFxqxdFlfjUFJjWRH6_vOTj5BmkFLspIOgao=",
+        "bio":"Chef Ryota Saito is a pastry chef who creates beautiful and delicious desserts that are almost too pretty to eat. His cakes, macarons, and pastries are works of art, and his attention to detail is unmatched.",
         "experience": 30,
         "recipes": 150,
-        "likes": 5000
-      },
-      {
-        "id":"7",
-        "name": "Nobu Matsuhisa",
-        "picture": "https://media.istockphoto.com/id/1281371163/photo/portrait-of-japanese-chef-in-kitchen.jpg?s=612x612&w=0&k=20&c=TAZdsI_XsRFrfz8H8XvC3F9VDNYJtrAAH0qb03zcMSg=",
-        "experience": 40,
-        "recipes": 30,
-        "likes": 3000
-      },
-      {
-        "id":"8",
-        "name": "Jiro Ono ",
-        "picture": "https://media.istockphoto.com/id/1059074556/photo/chef-preparing-food-in-the-kitchen-of-a-restaurant.jpg?s=612x612&w=0&k=20&c=qB3d1A7VYo2rcHxh8pV7jX0ok4kh6MJfVWsQRcBdzgM=",
-        "experience": 50,
-        "recipes": 200,
-        "likes": 4000
+        "likes": 5000,
+        "chefRecipe":[
+          {
+            "recipe_name": "Japanese Cheesecake",
+            "recipeImage": "https://www.justonecookbook.com/wp-content/uploads/2019/11/Japanese-Cheesecake-4661-V.jpg",
+            "ingredients": [
+              "250g cream cheese, softened",
+              "50g unsalted butter",
+              "100ml milk",
+              "6 eggs, separated",
+              "1/4 cup of sugar",
+              "1/4 cup of cornstarch",
+              "1/4 cup of cake flour",
+              "1 tsp of vanilla extract",
+              "1/4 tsp of cream of tartar",
+              "Vegetable oil, for greasing the cake pan"
+            ],
+            "cooking_method": [
+              "Preheat the oven to 160°C.",
+              "Grease a 9-inch cake pan with vegetable oil and line the bottom with parchment paper.",
+              "In a double boiler or a heatproof bowl set over a pot of simmering water, melt the cream cheese, butter, and milk together until smooth and well combined.",
+              "Remove the bowl from the heat and let it cool slightly.",
+              "Add the egg yolks one at a time, stirring well after each addition.",
+              "In a separate mixing bowl, sift together the sugar, cornstarch, and cake flour.",
+              "Add the dry ingredients to the cream cheese mixture and mix until just combined.",
+              "Stir in the vanilla extract.",
+              "In another mixing bowl, beat the egg whites with an electric mixer until foamy.",
+              "Add the cream of tartar and continue beating until soft peaks form.",
+              "Gradually add the sugar and beat until stiff peaks form.",
+              "Gently fold the egg whites into the cream cheese mixture until well combined.",
+              "Pour the batter into the prepared cake pan and smooth out the top with a spatula.",
+              "Place the cake pan in a larger baking dish and add enough hot water to the larger baking dish to come halfway up the sides of the cake pan.",
+              "Bake the cheesecake for 60-70 minutes until the top is golden brown and a toothpick inserted into the center comes out clean.",
+              "Remove the cheesecake from the oven and let it cool completely in the cake pan.",
+              "Chill the cheesecake in the refrigerator for at least 2 hours before serving.",
+              "Slice and serve the Japanese cheesecake chilled.",
+              "Enjoy!"
+            ]
+          },
+          {
+            "recipe_name": "Matcha Swiss Roll",
+            "recipeImage": "https://www.justonecookbook.com/wp-content/uploads/2021/12/Matcha-Swiss-Roll-5922-II.jpg",
+            "ingredients": [
+              "3 large eggs, separated",
+              "1/2 cup of granulated sugar",
+              "1/2 cup of all-purpose flour",
+              "1 tbsp of matcha powder",
+              "1/2 tsp of baking powder",
+              "1/4 tsp of salt",
+              "1/4 cup of whole milk",
+              "1 tsp of vanilla extract",
+              "Confectioners' sugar, for dusting",
+              "Whipped cream or frosting, for filling"
+            ],
+            "cooking_method": [
+              "Preheat the oven to 350°F.",
+              "Grease a 10x15 inch jelly roll pan with cooking spray and line the bottom with parchment paper.",
+              "In a large mixing bowl, beat the egg whites with an electric mixer until stiff peaks form.",
+              "Gradually add the granulated sugar and continue beating until glossy and stiff.",
+              "In another mixing bowl, sift together the flour, matcha powder, baking powder, and salt.",
+              "Add the egg yolks, milk, and vanilla extract to the dry ingredients and mix until smooth.",
+              "Gently fold in the egg white mixture until well combined.",
+              "Pour the batter into the prepared jelly roll pan and smooth out the top with a spatula.",
+              "Bake the cake for 12-15 minutes until the top is golden brown and the cake springs back when lightly touched.",
+              "Remove the cake from the oven and let it cool in the pan for 5 minutes.",
+              "Dust a clean kitchen towel with confectioners' sugar.",
+              "Invert the cake onto the towel and remove the parchment paper.",
+              "Roll up the cake with the towel, starting from the short end, and let it cool completely.",
+              "Unroll the cooled cake and spread the whipped cream or frosting over the surface, leaving a 1-inch border around the edges.",
+              "Roll up the cake again, using the towel to help you, and transfer it to a serving plate.",
+              "Dust the top of the cake with additional confectioners' sugar, if desired.",
+              "Slice and serve the Matcha Swiss Roll chilled.",
+              "Enjoy!"
+            ]
+          },
+          {
+            "recipe_name": "Kabocha Squash Pie",
+            "recipeImage": "https://www.justonecookbook.com/wp-content/uploads/2019/11/Kabocha-Squash-Pie-3474-II.jpg",
+            "ingredients": [
+              "1 medium kabocha squash, peeled, seeded and cut into chunks",
+              "1/2 cup of brown sugar",
+              "1/2 tsp of ground cinnamon",
+              "1/2 tsp of ground ginger",
+              "1/4 tsp of ground nutmeg",
+              "1/4 tsp of salt",
+              "1 can of evaporated milk",
+              "2 large eggs",
+              "1 pie crust, unbaked"
+            ],
+            "cooking_method": [
+              "Preheat the oven to 425°F.",
+              "Place the kabocha squash chunks in a large pot and cover with water.",
+              "Bring the water to a boil and cook the squash for 15-20 minutes until tender.",
+              "Drain the squash and transfer it to a large mixing bowl.",
+              "Add the brown sugar, cinnamon, ginger, nutmeg, and salt to the bowl and mash the mixture with a potato masher or fork until smooth.",
+              "In a separate mixing bowl, whisk together the evaporated milk and eggs until well combined.",
+              "Add the egg mixture to the kabocha squash mixture and stir until evenly combined.",
+              "Pour the filling into the unbaked pie crust and smooth out the top with a spatula.",
+              "Bake the pie for 15 minutes at 425°F, then reduce the oven temperature to 350°F and continue baking for another 30-35 minutes until the filling is set.",
+              "Remove the pie from the oven and let it cool to room temperature before slicing and serving.",
+              "Enjoy!"
+            ]
+          }
+          
+        ]
       }
 ]
