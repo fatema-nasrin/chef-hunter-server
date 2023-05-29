@@ -21,6 +21,12 @@ app.get('/chefs/:id', (req, res) =>{
     res.send(selectedRecipe)
 })
 
+
+
+app.get('/' ,(req,res) => {
+    res.send('chef hunter server is running')
+})
+
 app.listen(port, () => {
-    console.log('dragon api is running: ${port}')
+    console.log('chef hunter server is running on: ${port}')
 })
